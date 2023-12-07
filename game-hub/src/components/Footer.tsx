@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
         </Link>
         {/* Additional Links */}
         <Flex gridGap="4">
-          <Link href="termsOfService.html" fontSize="sm">
+          <Link href="termsOfService.html" fontSize="sm" target='_blank'>
             Terms of Service
           </Link>
-          <Link href="privacyPolicy.html" fontSize="sm">
+          <Link href="privacyPolicy.html" fontSize="sm" target='_blank'>
             Privacy Policy
           </Link>
         </Flex>
