@@ -7,7 +7,7 @@ import zeyad from '../assets/profile_pic_zeyad.png';
 
 const Footer: React.FC = () => {
   return (
-    <Box as="footer" py="8" bg="gray.800" color="white">
+    <Box as="footer" py="8">
       <Flex direction="column" align="center" justify="center">
         {/* GitHub Link */}
         <Link href="https://github.com/Demo-23home/React-VideoGame-DiscoveryApp/" fontSize="sm" display="flex" alignItems="center" mb="4">
