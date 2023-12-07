@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <Box as="footer" py="8">
       <Flex direction="column" align="center" justify="center">
         {/* GitHub Link */}
-        <Link href="https://github.com/Demo-23home/React-VideoGame-DiscoveryApp/" fontSize="sm" display="flex" alignItems="center" mb="4">
+        <Link href="https://github.com/Demo-23home/React-VideoGame-DiscoveryApp/" fontSize="sm" display="flex" alignItems="center" mb="2">
           <Icon as={FaGithub} mr="2" />
           GitHub Repository
         </Link>
