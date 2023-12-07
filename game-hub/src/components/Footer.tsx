@@ -1,5 +1,5 @@
 // Footer.tsx
-import React from 'react';
+import React, { Component } from 'react';
 import { Box, Text, Link, Flex, Icon, Avatar, Wrap, WrapItem } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import abdo from '../assets/profile_pic_abdo.png';
@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
         </Link>
         {/* Additional Links */}
         <Flex gridGap="4">
-          <Link href="#" fontSize="sm">
+          <Link href="termsOfService.html" fontSize="sm">
             Terms of Service
           </Link>
-          <Link href="#" fontSize="sm">
+          <Link href="privacyPolicy.html" fontSize="sm">
             Privacy Policy
           </Link>
         </Flex>
