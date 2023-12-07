@@ -8,6 +8,9 @@ import PlatformSelector from "./components/PlatformSelector";
 import { Platform } from "./hooks/useGames";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
+import Footer from "./components/Footer";
+import { ChakraProvider } from '@chakra-ui/react';
+
 
 export interface GameQuery {
   genre: Genre | null;
@@ -46,8 +49,11 @@ function App() {
       </Flex>
         </Box>
         <GameGrid gameQuery={gameQuery}/>
+        <Footer />
       </GridItem>
+      
     </Grid>
+    
   );
 }
 
