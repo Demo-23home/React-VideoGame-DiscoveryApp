@@ -55,6 +55,30 @@
 ### 13. Chakra UI Integration:
    - Utilize Chakra UI, built on Tailwind, for a responsive and visually appealing design.
 
+### Technologies:
+
+#### Backend:
+   - Django==5.0
+   - djangorestframework==3.14.0
+   - psycopg2==2.9.9
+   - django-filter==23.5
+   - asgiref==3.7.2
+   - Faker==20.1.0
+   - python-dateutil==2.8.2
+   - pytz==2023.3.post1
+   - sqlparse==0.4.4
+   - typing_extensions==4.8.0
+   - six==1.16.0
+
+#### Frontend:
+   - React
+   - TypeScript
+   - Axios
+   - Router
+   - Chakra UI
+   - States and Props
+   - Components Images
+
 ## Backend Features:
 
 ### 1. Model Creation:
