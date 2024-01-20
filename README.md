@@ -123,6 +123,8 @@
    - [LinkedIn](https://www.linkedin.com/in/abdelrahman-esmail/)
    - [GitHub](https://github.com/AbdelrahmanEsmail)
 
+### Deployment:
+The application is deployed and accessible at the following link:[ Game Review App.](https://65aba56dfe2cc0878e15a729--sprightly-jalebi-748cbb.netlify.app/)
 
 ### Overview:
 This application serves as a platform for video game enthusiasts to explore and review their favorite games. The seamless integration of frontend and backend features aims to create a user-friendly experience, with robust functionality for discovering, filtering, and reviewing games. Whether you're a casual gamer or a dedicated enthusiast, this app is designed to cater to your gaming preferences.
